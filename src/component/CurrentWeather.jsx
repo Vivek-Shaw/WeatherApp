@@ -1,7 +1,6 @@
 import React from "react";
 
-const CurrentWeather = ({data}) => {
-  
+const CurrentWeather = ({ data }) => {
   return (
     <div className="weather">
       <div className="top">
@@ -10,7 +9,7 @@ const CurrentWeather = ({data}) => {
           <p className="weather-description">{data.weather[0].description}</p>
         </div>
         <img
-          src={`src/assets/icons/${data.weather[0].icon}.png`}
+          src={`icons/${data.weather[0].icon}.png`}
           alt={data.weather[0].icon}
           className="weather-icon"
         />
