@@ -1,6 +1,7 @@
 import React from "react";
-import sunny from "../assets/icons/01d.png";
+
 const CurrentWeather = ({data}) => {
+  
   return (
     <div className="weather">
       <div className="top">
