@@ -33,7 +33,7 @@ const WeatherForecast = ({ data }) => {
               <AccordionItemButton>
                 <div className="daily-item">
                   <img
-                    src={`src/assets/icons/${item.weather[0].icon}.png`}
+                    src={`icons/${item.weather[0].icon}.png`}
                     alt="weather"
                     className="icon-small"
                   />
